@@ -1,0 +1,76 @@
+body{
+    margin: -4%;
+    overflow-x: hidden;
+}
+
+.im{
+   padding: 5%;
+   margin-left: 8%;
+    
+}
+.imgr{
+    margin-left:65%;
+    padding: 5%;
+}
+.des{
+    margin-left: 50%;
+}
+.desr{
+    margin-left:5%;
+}
+.desr h1{
+    position: absolute;
+    margin-top: -25%;
+    margin-right: 50%;
+    margin-left: 5%;
+   
+
+}
+.desr p{
+    position: absolute;
+    margin-top: -21%;
+    margin-right: 50%;
+    margin-left: 5%;
+    font-size: 18px;
+    font-weight: bold;
+    
+
+}
+.des h1{
+    position: absolute;
+    margin-top: -25%;
+    margin-left: -3%;
+    color: violet;
+}
+.des p{
+    position: absolute;
+    margin-top: -21%;
+    margin-left: -3%;
+    margin-right: 10%;
+    color:whitesmoke;
+    font-size: 18px;
+}
+
+.log{
+    float: right;
+    margin-bottom: 10px;
+    margin-top: 20px;
+    background-color: steelblue;
+    color: white;
+    padding: 14px 20px;
+    margin: 8px 10px;
+    border: none;
+    cursor: pointer;
+    width: 100%;
+}
+
+.nav{
+    position: absolute;
+    top: 5px;
+    left: 1220px;
+    z-index: 1;
+}
+
+.nav:hover{
+    opacity: 0.8;
+}

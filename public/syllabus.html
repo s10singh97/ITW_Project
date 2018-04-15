@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <script src="https://www.gstatic.com/firebasejs/4.11.0/firebase.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <script src="syllabus.js" type="text/javascript"></script>
+    <link rel="stylesheet" href="syllabus.css">
+</head>
+<body>
+
+<div class="header">
+  <img src="rem.jpg" width="100%" height=592>
+</div>
+
+<div id="navbar" style="margin-top:-7px;">
+  <a class="active" href="#re">Syllabus</a>
+  <a class="log" href="index.html">LOGOUT</a>
+</div>
+
+<div id="re">
+  <div class="red">
+    <div class = "cont1">
+        <img src="syl1.jpg" alt="Nature" height="200px" width="400px">
+        <p style="font-size: 15px;"><b>I<sup>st</sup> Semester</b></p>
+        <p id="div1"></p>
+    </div>
+    <div class = "cont2">
+        <img src="syl2.jpg" alt="Nature" height="200px" width="400px">
+        <p style="font-size: 15px;"><b>II<sup>nd</sup> Semester</b></p>
+        <p id="div2"></p>
+    </div>
+  </div>
+
+
+<div class="red">
+  <div class = "cont3">
+      <img src="syl3.jpg" alt="Nature" height="200px" width="400px">
+      <p style="font-size: 15px;"><b>III<sup>rd</sup> Semester</b></p>
+      <p id="div3"></p>
+  </div>
+  <div class = "cont4">
+      <img src="syl4.jpg" alt="Nature" height="200px" width="400px">
+      <p style="font-size: 15px;"><b>IV<sup>th</sup> Semester</b></p>
+      <p id="div4"></p>
+  </div>
+</div>
+
+<div class="red">
+  <div class = "cont5">
+      <img src="syl5.jpg" alt="Nature" height="200px" width="400px">
+      <p style="font-size: 15px;"><b>V<sup>th</sup> Semester</b></p>
+      <p id="div5"></p>
+  </div>
+  <div class = "cont6">
+      <img src="syl6.jpg" alt="Nature" height="200px" width="400px">
+      <p style="font-size: 15px;"><b>VI<sup>th</sup> Semester</b></p>
+      <p id="div6"></p>
+  </div>
+</div>
+
+<div class="red">
+  <div class = "cont7">
+      <img src="syl7.jpg" alt="Nature" height="200px" width="400px">
+      <p style="font-size: 15px;"><b>VII<sup>th</sup> Semester</b></p>
+      <p id="div7"></p>
+  </div>
+  <div class = "cont8">
+      <img src="syl8.jpg" alt="Nature" height="200px" width="400px">
+      <p style="font-size: 15px;"><b>VIII<sup>th</sup> Semester</b></p>
+      <p id="div8"></p>
+  </div>
+</div>
+
+<div class="red">
+  <div class = "cont9">
+      <img src="syl9.jpg" alt="Nature" height="200px" width="400px">
+      <p style="font-size: 15px;"><b>Course Codes and Credits</b></p>
+      <p id="div9"></p>
+  </div>
+</div>
+</div>
+<br><br><br><br>
+
+<script>
+window.onscroll = function() {myFunction()};
+
+var navbar = document.getElementById("navbar");
+var sticky = navbar.offsetTop;
+
+function myFunction() {
+  if (window.pageYOffset >= sticky) {
+    navbar.classList.add("sticky")
+  } else {
+    navbar.classList.remove("sticky");
+  }
+}
+</script>
+<script>
+  $(document).on('click', 'a[href^="#"]', function (event) {
+    event.preventDefault();
+
+    $('html, body').animate({
+        scrollTop: $($.attr(this, 'href')).offset().top
+    }, 500);
+});
+</script>
+
+</body>
+</html>

@@ -1,0 +1,120 @@
+.container{
+    position: relative;
+    overflow: hidden;
+}
+
+body{
+    margin: 0%;
+    padding: 0%;
+    overflow-y: hidden;
+}
+
+.log{
+    float: right;
+    margin-bottom: 10px;
+    margin-top: 20px;
+    background-color: #4CAF50;
+    color: white;
+    padding: 14px 20px;
+    margin: 8px 10px;
+    border: none;
+    cursor: pointer;
+    width: 100%;
+}
+
+.nav{
+    position: absolute;
+    top: 5px;
+    left: 1220px;
+    z-index: 1;
+}
+
+.nav:hover{
+    opacity: 0.8;
+}
+
+.aaa{
+    cursor: pointer;
+}
+
+.upper{
+position: relative;
+transform: translate(-40% , -65%);
+opacity: 0.8;
+}
+.overlay {
+    position:absolute;
+    top:30px;
+    left:435px;
+    z-index:1;
+    font-size: 50px;
+    color: white;
+}
+.overlay p{
+    text-align: center;
+    font-size: 20px;
+    margin-top: -30px;
+}
+.parent{
+    position: relative;
+    margin-left: 90px;
+    margin-top: -30px;
+}
+.pentagon {
+    position: absolute;
+    height: 80px;
+    width: 180px;
+    background-color: #555;
+    margin-top: -48.6%;
+    text-align: center;
+    font-size: 20px;
+    color: white;    
+}
+.tri{
+    position: absolute;
+    top:-540px;
+    width: 0;
+	height: 0;
+	border-left: 90px solid transparent;
+	border-right: 90px solid transparent;
+	border-top: 100px solid #555;
+}
+.pentagon1{
+    left:0px;
+}
+.tri1{
+    left:0px;
+}
+.pentagon2{
+    left:200px;
+}
+.tri2{
+    left:200px;
+}
+.pentagon3{
+    left:400px;
+}
+.tri3{
+    left:400px;
+}
+.pentagon4{
+    left:600px;
+}
+.tri4{
+    left:600px;
+}
+.pentagon5{
+    left:800px;
+}
+.tri5{
+    left:800px;
+}
+.pentagon6{
+    left:1000px;
+}
+.tri6{
+    left:1000px;
+}
+.pen:hover{
+    background-color: orange;
+}

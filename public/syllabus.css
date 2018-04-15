@@ -1,0 +1,164 @@
+body {
+  margin: 0;
+  font-family: 'Times New Roman', Times, serif;
+  font-size: 15px;
+}
+
+.active{
+    margin-left:46%;
+}
+
+.log{
+  margin-left: 38%;
+}
+
+.red{
+  position: relative;
+  width: 100%;
+}
+
+.cont1{
+    position: absolute;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    width: 40%;
+    top: 100px;
+    left: 100px;
+}
+
+.cont2{
+  position: absolute;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  width: 40%;
+  top: 100px;
+  left: 800px;
+}
+
+.cont3{
+  position: absolute;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  width: 40%;
+  top: 400px;
+  left: 100px;
+}
+
+.cont4{
+  position: absolute;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  width: 40%;
+  top: 400px;
+  left: 800px;
+}
+
+.cont5{
+  position: absolute;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  width: 40%;
+  top: 700px;
+  left: 100px;
+}
+
+.cont6{
+  position: absolute;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  width: 40%;
+  top: 700px;
+  left: 800px;
+}
+
+.cont7{
+  position: absolute;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  width: 40%;
+  top: 1000px;
+  left: 100px;
+}
+
+.cont8{
+  position: absolute;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  width: 40%;
+  top: 1000px;
+  left: 800px;
+}
+
+.cont9{
+  position: absolute;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  width: 40%;
+  top: 1300px;
+  left: 450px;
+}
+
+#navbar {
+  overflow: hidden;
+  background-color: #333;
+  z-index: 8;
+}
+
+#navbar a {
+  float: left;
+  display: block;
+  color: #f2f2f2;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 17px;
+}
+
+#navbar a:hover {
+  background-color: #ddd;
+  color: black;
+}
+
+.active:hover{
+  opacity: 0.8;
+}
+
+.log:hover{
+  opacity: 0.8;
+}
+
+#navbar a.log{
+  background-color: steelblue;
+  color: white;
+}
+
+#navbar a.active {
+  background-color: #4CAF50;
+  color: white;
+}
+
+.content {
+  padding: 16px;
+}
+
+.sticky {
+  position: fixed;
+  top: 0;
+  width: 100%;
+}
+
+html{
+  background: url(bg.jpg);
+}
+
+.gg{
+  background-color: steelblue;
+  color: white;
+  padding: 14px 20px;
+  margin: 20px 10px;
+  border: none;
+  cursor: pointer;
+  width: 100%;
+  text-decoration: none;
+  margin-left: 140px;
+}
