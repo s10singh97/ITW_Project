@@ -1,0 +1,49 @@
+body{
+    background-image: url('back.jpg');
+    background-repeat: no-repeat;
+    background-size: 100%;
+    margin: 0px;
+    padding: 0px;
+}
+.bar{
+    margin-left: 0%;
+    color: oldlace;
+    list-style-type: none;
+}
+.bar li{
+    color: white;
+    float: left;
+    font-size: 26px;
+    padding-left:30px;
+    padding-top: 20px;
+}
+.bar li:hover{
+    color: orange;
+    cursor: pointer;
+}
+h1{
+    margin-left: 37%;
+    color: greenyellow;
+    font-size: 50px;
+}
+.parent{
+    color: ghostwhite;
+    position: relative;
+}
+img{
+    border-radius: 50%;
+    margin-left: 9%;
+    margin-top: 4%;
+}
+.child{
+    position: absolute;
+    font-size: 23px;
+    left: 40%;
+    top: 12%;
+}
+.para{
+    color:purple;
+}
+.child span{
+    color: white;
+}

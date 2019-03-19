@@ -1,0 +1,51 @@
+<html>
+    <head>
+        <title>Time Table</title>
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <script src="https://www.gstatic.com/firebasejs/4.11.0/firebase.js"></script>
+        <script src="timetable.js" type="text/javascript"></script>
+        <link rel="stylesheet" href="time.css">
+    </head>
+    <body>
+        <div class="container">
+            <div class="nav">
+                <input class="log" type="button" onclick="location.href = 'file:///F:/ITW/project/home.html'" value="LOGOUT">
+            </div>
+            <div class="upper">
+                <video  autoplay muted loop id="myVideo">
+                <source src="Home_work.webm" type="video/webm" style="width:100px;">
+                </video>
+            </div>
+            <div class="overlay">
+            <h1 style="color : #FFBE33;">Time Table</h1>
+            <!-- <p style="color : burlywood;">Know Your Shedule</p> -->
+            </div>
+        </div>
+        <div class="parent">
+            <div onclick="div1()" class="aaa">
+                <div class="pentagon pentagon1"><br><p>II<sup>nd</sup> Sem CSE</p></div>
+                <div class="pen tri tr1"></div>
+           </div>
+            <div onclick="div2()" class="aaa">
+                <div class="pentagon pentagon2"><br><p>II<sup>nd</sup> Sem ECE</p></div>
+                <div class="pen tri tri2"></div>
+            </div>
+            <div onclick="div3()" class="aaa">
+                <div class="pentagon pentagon3"><br><p>IV<sup>th</sup> Sem CSE</p></div>
+                <div class="pen tri tri3"></div>
+            </div>
+            <div onclick="div4()" class="aaa">
+                <div class="pentagon pentagon4"><br><p>IV<sup>th</sup> Sem ECE</p></div>
+                <div class="pen tri tri4"></div>
+            </div>
+            <div onclick="div5()" class="aaa">
+                <div class="pentagon pentagon5"><br><p>VI<sup>th</sup> Sem CSE</p></div>
+                <div class="pen tri tri5"></div>
+            </div>
+            <div onclick="div6()" class="aaa">
+                <div class="pentagon pentagon6"><br><p>VI<sup>th</sup> Sem CSE</p></div>
+                <div class="pen tri tri6"></div>
+            </div>
+        </div>
+    </body>
+</html>

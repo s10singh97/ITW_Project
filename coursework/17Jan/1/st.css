@@ -1,0 +1,26 @@
+#t1 {
+    font-family: arial, sans-serif;
+    border-collapse: collapse;
+    width: 97%;
+    margin-top: 20px;
+    margin-left: 20px;
+    margin-right: 20px;
+}
+
+td, th {
+    padding: 8px;
+    text-align: center;
+}
+
+tr:nth-child(even) {
+    background-color: #dddddd;
+}
+
+#t2 {
+    font-family: arial, sans-serif;
+    border-collapse: collapse;
+    width: 80%;
+    margin-top: 20px;
+    margin-left: 20px;
+    margin-right: 20px;
+}

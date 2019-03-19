@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" type="text/css" href="st1.css">
+        <link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css">
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+        <script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js"></script>
+    </head>
+    <body>
+
+    <h3 id="hh"><u>STUDENT REGISTRATION FORM</u></h3>
+
+    <div class="container">
+    <form action="/action_page.php">
+        <label for="fname">FIRST NAME</label>
+        <input type="text" id="fname" name="fname" maxlength="30" placeholder="Your first name.."><span id="side">  (max 30 characters a-z and A-Z)</span>
+
+        <br><br><label for="lname">LAST NAME</label>
+        <input type="text" id="lname" name="lname" maxlength="30" placeholder="Your last name.."><span id="side">  (max 30 characters a-z and A-Z)</span>
+
+        <br><br><label for="dob">DATE OF BIRTH</label>
+        <input type="date" id="dob" name="dob">
+
+        <br><br><label for="email">E-MAIL ID</label>
+        <input type="text" id="eid" name="email" placeholder="Your e-mail id..">
+
+        <br><br><label for="mob">MOBILE NO.</label>
+        <input type="text" id="mob" maxlength="10" name="mob"><span id="side">  (10 digit number)</span>
+
+        <br><br><label for="gender">GENDER</label>
+        <span id="gen">Male<input type="radio" name="gender" value="male">
+        Female<input type="radio" name="gender" value="female"></span><br><br>
+
+        <br><br><label for="address">ADDRESS</label>
+        <textarea id="address" name="address" placeholder="Write your address.." style="height:150px; margin-left:120px;"></textarea>
+
+        <br><br><label for="city">CITY</label>
+        <input type="text" id="city" name="city" maxlength="30" placeholder="City.."><span id="side">  (max 30 characters a-z and A-Z)</span>
+
+        <br><br><label for="pc">PINCODE</label>
+        <input type="text" id="pincode" name="pc" maxlength="6" placeholder="Pincode.."><span id="side">  (6 digit number)</span>
+
+        <br><br><label for="state">STATE</label>
+        <input type="text" id="state" name="state" maxlength="30" placeholder="State.."><span id="side">  (max 30 characters a-z and A-Z)</span>
+
+        <br><br><label for="state">COUNTRY</label>
+        <input type="text" id="country" name="country" placeholder="Country.." value="India">
+
+        <br><br><label for="hobbies">HOBBIES</label>
+        <span id="hob">Drawing<input type="checkbox" value="dr" name="hob">
+        Singing<input type="checkbox" value="si" name="hob">
+        Dancing<input type="checkbox" value="da" name="hob">
+        Sketching<input type="checkbox" value="sk" name="hob">
+        <br><span id="oth">Others<input type="checkbox" value="ot" name="hob"><input type="text" id="oths" name="hob"></span></span>
+
+        <br><br><label for="quali">QUALIFICATION</label>
+        <div>
+        <table width="70%">
+            <tr>
+                <th>S.No.</th>
+                <th>Examination</th>
+                <th>Board</th>
+                <th>Percentage</th>
+                <th>Year of Passing</th>
+            </tr>
+            <tr>
+                <td>1</td>
+                <td>Class X</td>
+                <td><input type="text"></td>
+                <td><input type="text"></td>
+                <td><input type="text"></td>
+            </tr>
+            <tr>
+                <td>2</td>
+                <td>Class XII</td>
+                <td><input type="text"></td>
+                <td><input type="text"></td>
+                <td><input type="text"></td>
+            </tr>
+            <tr>
+                <td>3</td>
+                <td>Graduation</td>
+                <td><input type="text"></td>
+                <td><input type="text"></td>
+                <td><input type="text"></td>
+            </tr>
+            <tr>
+                <td>4</td>
+                <td>Masters</td>
+                <td><input type="text"></td>
+                <td><input type="text"></td>
+                <td><input type="text"></td>
+            </tr>
+            <tr>
+                <td></td>
+                <td></td>
+                <td>(upto 10 char max)</td>
+                <td>(upto 2 decimal)</td>
+                <td></td>
+            </tr>
+        </table>
+        </div>
+        
+        <br><br><label>COURSES APPLIED FOR</label>
+        <span id="caf">BCA<input type="radio" name="caf" value="bca">
+        B.Com<input type="radio" name="caf" value="bcom">
+        B.Sc.<input type="radio" name="caf" value="bsc">
+        B.A.<input type="radio" name="caf" value="ba"></span>
+
+        <div id="sr">
+            <br><br><input type="submit" value="Submit">
+            <input type="reset" value="Clear">
+        </div>
+    </form>
+    </div>
+
+    </body>
+</html>

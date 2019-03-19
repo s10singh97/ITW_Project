@@ -1,0 +1,61 @@
+input[type=text], select, textarea, input[type=date], input[type=number] {
+    width: 100%;
+    padding: 12px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+    margin-top: 6px;
+    margin-bottom: 16px;
+    resize: vertical;
+}
+
+input[type=radio], input[type=checkbox] {
+    width: 10%;
+}
+
+input[type=submit], input[type=reset] {
+    background-color: #4CAF50;
+    color: white;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+input[type=submit]:hover {
+    background-color: #45a049;
+}
+
+input[type=reset]:hover {
+    background-color: #45a049;
+}
+
+.container {
+    border-radius: 5px;
+    background-color: #f2f2f2;
+    padding: 20px;
+}
+
+#hh {
+    margin-left: 100px;
+    text-align: center;
+}
+
+#cc {
+    margin-top: 20px;
+}
+
+#sr {
+    padding-left: 512px;
+}
+
+#mob, #fname, #lname, #dob, #eid, #gender {
+    width: 40%;
+    margin-left: 100px;
+}
+
+body {
+    background-image: url("bg.jpg");
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}

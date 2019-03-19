@@ -1,0 +1,120 @@
+input[type=text], select, input[type=date], input[type=number] {
+    width: 100%;
+    padding: 12px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    margin-top: 6px;
+    margin-bottom: 16px;
+}
+
+textarea {
+    width: 60%;
+    padding: 12px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    margin-top: 6px;
+    margin-bottom: 16px;
+}
+
+input[type=radio], input[type=checkbox] {
+    width: 10%;
+}
+
+.container {
+    border-radius: 5px;
+    background-color: blueviolet;
+    padding: 20px;
+}
+
+#hh {
+    margin-left: 70px;
+    text-align: center;
+    color:blueviolet;
+}
+
+#sr {
+    padding-left: 512px;
+}
+
+#fname, #dob, #gender {
+    width: 40%;
+    margin-left: 100px;
+}
+
+#lname {
+    width: 40%;
+    margin-left: 105px;
+}
+
+#dob {
+    width: 40%;
+    margin-left: 80px;
+}
+
+#eid {
+    width: 40%;
+    margin-left: 122px;
+}
+
+#mob {
+    width: 40%;
+    margin-left: 105px;
+}
+
+#gen {
+    color: white;
+    margin-left: 130px;
+}
+
+#city {
+    width: 40%;
+    margin-left: 157px;
+}
+
+#pincode {
+    width: 40%;
+    margin-left: 125px;
+}
+
+#state {
+    width: 40%;
+    margin-left: 145px;
+}
+
+#country {
+    width: 40%;
+    margin-left: 120px;
+}
+
+#hob {
+    width: 40%;
+    margin-left: 124px;
+    color: white;
+}
+
+#oth {
+    width: 40%;
+    margin-left: 192px;
+}
+
+#oths {
+    width: 40%;
+}
+
+#caf {
+    color:white;
+    margin-left: 30px;
+}
+
+table {
+    color: white;
+    margin-left: 200px;
+}
+
+label {
+    color: white;
+}
+
+#side {
+    color: white;
+}

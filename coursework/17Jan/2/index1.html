@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" type="text/css" href="st1.css">
+        <link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css">
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+        <script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js"></script>
+    </head>
+    <body>
+
+    <h3 id="hh"><u>STUDENT REGISTRATION FORM</u></h3>
+
+    <div class="container">
+    <form action="/action_page.php">
+        <label for="fname">First Name</label>
+        <input type="text" id="fname" name="fname" placeholder="Your first name..">
+
+        <br><br><label for="lname">Last Name</label>
+        <input type="text" id="lname" name="lname" placeholder="Your last name..">
+
+        <br><br><label for="dob">Date of Birth</label>
+        <input type="date" id="dob" name="dob">
+
+        <br><br><label for="email">E-Mail ID</label>
+        <input type="text" id="eid" name="email" placeholder="Your e-mail id..">
+
+        <br><br><label for="mob">Mobile No.</label>
+        <input type="text" id="mob" name="mob">  (10 digit number)
+
+        <br><br><label for="gender">Gender</label>
+        <br><br>Female<input type="radio" name="gender" value="female">
+        Male<input type="radio" name="gender" value="male"><br><br>
+
+        <p>
+            <label for="address" id = "cc">Address</label>
+            <textarea id="address" name="addrerss" placeholder="Write your address.." style="height:200px"></textarea>
+        </p>
+
+        <label for="city">City</label>
+        <input type="text" name="city" placeholder="City..">
+
+        <label for="pc">Pincode</label>
+        <input type="text" name="pc">
+
+        <label for="state">State</label>
+        <input type="text" name="state" placeholder="State..">
+
+        <label for="state">Country</label>
+        <input type="text" name="country" placeholder="Country..">
+
+        <label for="hobbies">Hobbies</label>
+        <br><br>Drawing<input type="checkbox" value="dr" name="hob">
+        Singing<input type="checkbox" value="si" name="hob">
+        Dancing<input type="checkbox" value="da" name="hob">
+        Sketching<input type="checkbox" value="sk" name="hob">
+        <br>Others<input type="checkbox" value="ot" name="hob"><input type="text" name="hob">
+
+        <label for="quali">Qualification</label>
+        <table width="100%">
+            <tr>
+                <th>S.No.</th>
+                <th>Examination</th>
+                <th>Board</th>
+                <th>Percentage</th>
+                <th>Year of Passing</th>
+            </tr>
+            <tr>
+                <td>1</td>
+                <td>Class X</td>
+                <td><input type="text"></td>
+                <td><input type="text"></td>
+                <td><input type="text"></td>
+            </tr>
+            <tr>
+                <td>2</td>
+                <td>Class XII</td>
+                <td><input type="text"></td>
+                <td><input type="text"></td>
+                <td><input type="text"></td>
+            </tr>
+            <tr>
+                <td>3</td>
+                <td>Graduation</td>
+                <td><input type="text"></td>
+                <td><input type="text"></td>
+                <td><input type="text"></td>
+            </tr>
+            <tr>
+                <td>4</td>
+                <td>Masters</td>
+                <td><input type="text"></td>
+                <td><input type="text"></td>
+                <td><input type="text"></td>
+            </tr>
+            <tr>
+                <td></td>
+                <td></td>
+                <td>(upto 10 char max)</td>
+                <td>(upto 2 decimal)</td>
+                <td></td>
+            </tr>
+        </table>
+        
+        <br><label>Courses Applied For</label>
+        <br><br>BCA<input type="radio" name="caf" value="bca">
+        B.Com<input type="radio" name="caf" value="bcom">
+        B.Sc.<input type="radio" name="caf" value="bsc">
+        B.A.<input type="radio" name="caf" value="ba">
+
+        <div id="sr">
+            <br><br><input type="submit" value="Submit">
+            <input type="reset" value="Clear">
+        </div>
+    </form>
+    </div>
+
+    </body>
+</html>

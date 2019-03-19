@@ -1,0 +1,46 @@
+body{
+    background-image: url('study.jpg')
+}
+.scho{
+    width: 38%;
+    height: 80%;
+    background-color:rgba(0,0,0,0.5);
+    box-sizing: border-box;
+    overflow: hidden;   
+    border-radius: 15%;
+    margin-top: 80px;
+    margin-left: 450px;
+}
+.ab{
+    margin-top: 14%;
+    font-size: 28px;
+    color:white;
+    margin-left:10%;
+    
+}
+a:link{
+    text-decoration: none;
+}
+.log{
+    float: right;
+    margin-bottom: 10px;
+    margin-top: 20px;
+    background-color: steelblue;
+    color: white;
+    padding: 14px 20px;
+    margin: 8px 10px;
+    border: none;
+    cursor: pointer;
+    width: 100%;
+}
+
+.nav{
+    position: absolute;
+    top: 5px;
+    left: 1220px;
+    z-index: 1;
+}
+
+.nav:hover{
+    opacity: 0.8;
+}
